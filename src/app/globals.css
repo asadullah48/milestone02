@@ -18,7 +18,12 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+/* 
+  This CSS rule sets the color property using the RGB color model. 
+  The RGB values are dynamically retrieved from a CSS variable named --foreground-rgb. 
+  This allows for easy theming and customization of the color by changing the variable's value.
+*/
+color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,

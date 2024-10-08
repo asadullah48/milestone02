@@ -42,11 +42,12 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start">
             <a 
-              href="https://www.linkedin.com/in/asadullah-shafique-a00679325/" 
+            href="https://www.linkedin.com/in/asadullah-shafique-a00679325/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-6 py-3 w-full sm:w-auto rounded-full mr-4 mb-3 sm:mb-0 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white text-center"
             >
+              
               Contact Me
             </a>
             <a 
@@ -66,13 +67,13 @@ const HeroSection = () => {
          animate={{opacity: 1, scale: 1}} 
          transition={{duration: 0.5}} 
          className="sm:w-5/12 flex justify-center mt-6 sm:mt-0">
-          <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[380px] lg:h-[380px] relative flex items-center justify-center mt-4 sm:mt-8 lg:mt-12">
+          <div className="square-full bg-[#181818] w-[200px] h-[200px] lg:w-[380px] lg:h-[380px] relative flex items-center justify-center mt-4 sm:mt-8 lg:mt-12">
             <Image 
               src= {images}
               alt="profile"
-              className="absolute w-[80%] h-[80%] lg:w-[90%] lg:h-[90%]"
-              width={500}
-              height={500}
+              className="absolute w-[90%] h-[90%] lg:w-[95%] lg:h-[95%]"
+              width={1000}
+              height={1000}
             />
           </div>
         </motion.div>
