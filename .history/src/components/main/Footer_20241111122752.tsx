@@ -98,7 +98,7 @@ const Footer = () => {
 
         <div className="flex items-center justify-center gap-5">
           <Image
-            src={"/Q2CARDREVERSE.png"}
+            src={"/Q2CARD.png"}
             alt="logo"
             width={70}
             height={70}

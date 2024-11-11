@@ -34,7 +34,7 @@ const HeroContent = () => {
                   1000,
                    'Textile Engineer Cum Full-Stack Developer',
                    900,
-                   'UI / UX Design Specialization',
+                   'New Technology Enthusiastic',
                    900,
                    'Freelancer',
                    1000,
